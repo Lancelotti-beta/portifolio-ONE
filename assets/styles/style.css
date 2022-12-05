@@ -1,0 +1,29 @@
+@import "./abstract/_reset.css";
+@import "./abstract/_variaveis.css";
+
+body {
+    width: 100vw;
+    max-width: 365px;
+    height: 100%;
+    max-height: 4475px;
+}
+
+.conatiner {
+    margin: 0 auto;
+    width: 90%;
+}
+
+@media screen and (min-width:704px) {
+    body {
+        max-width: 768px;
+        max-height: 4379px;
+    }  
+}
+
+@media screen and (min-width:1024px) {
+    body { 
+        max-width: 1440px;
+        max-height: 5020px;
+    }
+}
+
