@@ -1,11 +1,17 @@
 @import "./abstract/_reset.css";
 @import "./abstract/_variaveis.css";
 
+@import "./components/cabecalho.css";
+@import "./components/icones.css";
+@import "./components/cabecalho-menu.css";
+@import "./components/cabecalho-links.css";
+
 body {
-    width: 100vw;
+    min-width: 100vw;
     max-width: 365px;
     height: 100%;
     max-height: 4475px;
+    margin: 0 auto;
 }
 
 .conatiner {

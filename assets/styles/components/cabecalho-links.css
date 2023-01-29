@@ -1,0 +1,49 @@
+.links__social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.social__texto {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.texto--secundario {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.social__lista {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.lista--link {
+    padding: 0 .5rem;
+}
+
+.profile {
+    width: 50%;
+}
+
+.profile--image {
+    border-radius: 50%;
+}
+
+@media screen and (min-width:704px) {
+    .profile {
+        text-align: end;
+    }
+
+    .profile--image {
+        padding-right: 1rem;
+    }
+}

@@ -1,0 +1,28 @@
+
+.menu__links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.links--sections {
+    padding: 0 .5rem;
+}
+
+.links--ocultos {
+    display: none;
+}
+
+@media screen and (min-width:704px) {
+    .link--contato {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .links--ocultos {
+        display: block;
+    }
+}
