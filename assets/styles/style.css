@@ -2,9 +2,12 @@
 @import "./abstract/_variaveis.css";
 
 @import "./components/cabecalho.css";
-@import "./components/icones.css";
+@import "./components/cabecalho-icons.css";
 @import "./components/cabecalho-menu.css";
 @import "./components/cabecalho-links.css";
+@import "./components/formacao.css";
+@import "./components/formacao-icons.css";
+@import "./components/formacao-card.css";
 
 body {
     min-width: 100vw;
@@ -16,20 +19,27 @@ body {
 
 .conatiner {
     margin: 0 auto;
-    width: 90%;
+}
+
+.titulo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
 }
 
 @media screen and (min-width:704px) {
     body {
         max-width: 768px;
         max-height: 4379px;
-    }  
+    }
 }
 
 @media screen and (min-width:1024px) {
-    body { 
+    body {
         max-width: 1440px;
         max-height: 5020px;
     }
 }
-

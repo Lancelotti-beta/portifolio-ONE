@@ -1,0 +1,26 @@
+.icone {
+    height: 83px;
+    width: 83px;
+}
+
+.vector__alura--one {
+    background-image: url(https://www.alura.com.br/assets/api/programas/oracle-one.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.vector__alura--front {
+    background-image: url(https://www.alura.com.br/assets/api/formacoes/categorias/branco/front-end.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.vector__alura--programacao {
+    background-image: url(https://www.alura.com.br/assets/api/formacoes/categorias/branco/programacao.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
