@@ -5,11 +5,12 @@
 @import "./components/cabecalho-icons.css";
 @import "./components/cabecalho-menu.css";
 @import "./components/cabecalho-links.css";
+@import "./components/sobre.css";
+@import "./components/skill.css";
+@import "./components/skill-icons.css";
 @import "./components/formacao.css";
 @import "./components/formacao-icons.css";
 @import "./components/formacao-card.css";
-@import "./components/skill.css";
-@import "./components/skill-icons.css";
 
 body {
     min-width: 100vw;

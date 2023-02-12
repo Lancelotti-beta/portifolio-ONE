@@ -1,0 +1,15 @@
+.sobre {
+    padding: .5rem;
+}
+
+.sobre > p {
+    font-size: 1rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    text-align: justify;
+}
+
+p > span {
+    display: block;
+}
