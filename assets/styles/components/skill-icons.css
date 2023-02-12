@@ -1,8 +1,8 @@
 .svg::before {
     content: "";
     display: block;
-    width: 82px;
-    height: 82px;
+    width: 50px;
+    height: 50px;
 }
 
 .svg__icon--html::before {
@@ -46,3 +46,18 @@
     background-repeat: no-repeat;
 
 }
+
+@media screen and (min-width:704px) {
+    .svg::before {
+        width: 92px;
+        height: 92px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .svg::before {
+        width: 120px;
+        height: 120px;
+    }
+}
+
