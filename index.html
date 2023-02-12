@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <link rel="shortcut icon" href="assets/image/Groupestrelas.svg" type="image/x-icon">
     <title>Bruno José - Portifólio ONE</title>
 </head>
+
 <body>
     <header class="cabecalho">
         <nav class="cabecalho__menu">
@@ -79,32 +81,54 @@
                 </ul>
             </div>
             <figure class="profile">
-                <img class="profile--image" src="https://github.com/Lancelotti-beta.png" alt="Imagem de Usuario do GitHub">
+                <img class="profile--image" src="https://github.com/Lancelotti-beta.png"
+                    alt="Imagem de Usuario do GitHub">
             </figure>
         </div>
     </header>
     <main class="conatiner">
         <section id="sobre-min">
             <h3 class="titulo">Sobre mim</h3>
-            <p></p>
+            <p>
+                <span>Olá, meu nome é Bruno ^^</span>
+                sou apaixonado por tecnologia e como se esta sendo debatido em O Banquete, o amor
+                e o belo. Conheci a programação perto dos 18 anos mas só comecei buscar informações
+                e cursos aos 20 anos, com o Alura eu tive a enorme oportunidade de iniciar meus estudos
+                de maneira organizada e focando na area que estava buscando. Já o ONE me proporcionou a
+                continuidade e o avanço na area de forma intensa e com 6 meses eu desenvolvi projetos que
+                eu não sabia que eera capaz de fazer e me ajudou a interagir com a comunidade.
+                Agora com 26 anso sigo buscando mais conheciemento e visando a Faculdade de Ciencias da
+                Computação, e quem sabe um mestrado futuramente, para poder atuar no mercado de trabalho
+                e poder auxiliar pessoas que estão no mesmo caminho que estou.
+            </p>
         </section>
-        <section id="skill">
+        <section id="skill" class="skill">
             <h3 class="titulo">Skills</h3>
-            <div>
-                <div></div>
-                <h4></h4>
-            </div>
-            <div>
-                <div></div>
-                <h4></h4>
-            </div>
-            <div>
-                <div></div>
-                <h4></h4>
-            </div>
-            <div>
-                <div></div>
-                <h4></h4>
+            <div class="skill__card">
+                <span class="card">
+                    <i class="svg svg__icon--html"></i>
+                    <h4>HTML</h4>
+                </span>
+                <span class="card">
+                    <i class="svg svg__icon--css"></i>
+                    <h4>CSS</h4>
+                </span>
+                <span class="card">
+                    <i class="svg svg__icon--js"></i>
+                    <h4>JavaScript</h4>
+                </span>
+                <span class="card">
+                    <i class="svg svg__icon--react"></i>
+                    <h4>React</h4>
+                </span>
+                <span class="card">
+                    <i class="svg svg__icon--nodeJs"></i>
+                    <h4>NodeJS</h4>
+                </span>
+                <span class="card">
+                    <i class="svg svg__icon--php"></i>
+                    <h4>PHP</h4>
+                </span>
             </div>
         </section>
         <section id="hobbie">
@@ -198,19 +222,19 @@
                 </p>
                 <from>
                     <div>
-                        <input data-input id="nome" name="nome" type="text" required>
+                        <input data-input="nome" id="nome" name="nome" type="text" required>
                         <label for="nome"></label>
                     </div>
                     <div>
-                        <input data-input id="email" name="email" type="email" required>
+                        <input data-input="email" id="email" name="email" type="email" required>
                         <label for="email"></label>
                     </div>
                     <div>
-                        <input data-input id="assunto" name="assunto" type="text" required>
+                        <input data-input="assunto" id="assunto" name="assunto" type="text" required>
                         <label for="assunto"></label>
                     </div>
                     <div>
-                        <input data-input id="mensagem" name="mensagem" type="text" required>
+                        <input data-input="mensagem" id="mensagem" name="mensagem" type="text" required>
                         <label for="mensagem"></label>
                     </div>
                     <button>Enviar mensagem</button>
@@ -220,4 +244,5 @@
     </main>
     <footer></footer>
 </body>
+
 </html>

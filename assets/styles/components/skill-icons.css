@@ -1,0 +1,48 @@
+.svg::before {
+    content: "";
+    display: block;
+    width: 82px;
+    height: 82px;
+}
+
+.svg__icon--html::before {
+    background-image: url(../../image/HTML.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.svg__icon--css::before {
+    background-image: url(../../image/VectorCSS.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.svg__icon--js::before {
+    background-image: url(../../image/JAVASCRIPT.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.svg__icon--react::before {
+    background-image: url(../../image/reactREACT.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.svg__icon--nodeJs::before {
+    background-image: url(../../image/NODEJS.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.svg__icon--php::before {
+    background-image: url(../../image/PHP.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}

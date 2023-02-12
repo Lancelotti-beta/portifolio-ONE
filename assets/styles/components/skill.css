@@ -1,0 +1,24 @@
+.skill {
+    padding: .5rem;
+}
+
+.skill > .skill__card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: .75rem;
+    margin: 1rem 0;
+}
+
+.skill__card > .card {
+    background: #E5E5E5;
+    padding: .5rem;
+    width: 40%;
+}
+
+
+.skill__card > .card > h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: end;
+}
